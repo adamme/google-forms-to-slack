@@ -10,7 +10,7 @@
 // Alter this to match the incoming webhook url provided by Slack
 var slackIncomingWebhookUrl = 'https://hooks.slack.com/services/YOUR-URL-HERE';
 
-// Include # for public channels, omit it for private channels
+// Include # for public channels, omit it for private channels. If omitting, omit ""channel": postChannel," line 50 as well.
 var postChannel = "YOUR-CHANNEL-HERE";
 
 var postIcon = ":mailbox_with_mail:";
